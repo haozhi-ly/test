@@ -132,6 +132,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-60" value="2.2 om的backend服务调用比赛匹配请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="855" y="670" as="sourcePoint" />
+            <mxPoint x="1179.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-61" value="2.3&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="c8NdyCZHUCgl87eywZZy-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="710" as="sourcePoint" />
+            <mxPoint x="1100" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
