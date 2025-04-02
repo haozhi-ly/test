@@ -369,8 +369,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8NdyCZHUCgl87eywZZy-125" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.8 grpc推送gameStatus=8游戏开始，用户进入游戏中比赛&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0003" width="80" relative="1" as="geometry">
+        <mxCell id="c8NdyCZHUCgl87eywZZy-125" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.9 grpc推送gameStatus=8游戏开始，用户进入游戏中比赛&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1385" y="2000" as="sourcePoint" />
             <mxPoint x="370" y="2000" as="targetPoint" />
             <mxPoint as="offset" />
