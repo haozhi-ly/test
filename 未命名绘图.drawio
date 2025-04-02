@@ -37,7 +37,7 @@
         <mxCell id="c8NdyCZHUCgl87eywZZy-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-20">
           <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c8NdyCZHUCgl87eywZZy-57" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="c8NdyCZHUCgl87eywZZy-56" parent="c8NdyCZHUCgl87eywZZy-20">
+        <mxCell id="c8NdyCZHUCgl87eywZZy-57" value="2.定时器调用om的获取比赛接口" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="c8NdyCZHUCgl87eywZZy-56" parent="c8NdyCZHUCgl87eywZZy-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="180" as="sourcePoint" />
             <Array as="points">
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-29">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-29">
+          <mxGeometry x="44.66666666666674" y="190" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-30" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="c8NdyCZHUCgl87eywZZy-26">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -120,6 +123,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="600" as="sourcePoint" />
             <mxPoint x="280" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-58" value="2.1 grpc调用获取比赛&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="c8NdyCZHUCgl87eywZZy-56" target="c8NdyCZHUCgl87eywZZy-59">
+          <mxGeometry x="-0.0023" width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="630" as="sourcePoint" />
+            <mxPoint x="849.6666666666667" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
