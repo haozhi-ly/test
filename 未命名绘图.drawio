@@ -49,16 +49,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-21" value="&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;function-valorant-pug服务&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1130" y="400" width="100" height="830" as="geometry" />
+          <mxGeometry x="1130" y="400" width="100" height="940" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-21">
           <mxGeometry x="45" y="265" width="10" height="155" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-22" value="&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;game-valorant&lt;/span&gt;服务&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1330" y="400" width="100" height="850" as="geometry" />
+          <mxGeometry x="1330" y="400" width="100" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-89" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-22">
-          <mxGeometry x="45" y="510" width="10" height="320" as="geometry" />
+          <mxGeometry x="45" y="510" width="10" height="520" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-90" value="3.1 监听kafka的&lt;div&gt;游戏对局topic，&lt;/div&gt;&lt;div&gt;收到对局消息，&lt;/div&gt;&lt;div&gt;根据模式，队伍信息生成&lt;/div&gt;&lt;div&gt;游戏上下文信息，&lt;/div&gt;&lt;div&gt;推送游戏上下文信息至客户端&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="c8NdyCZHUCgl87eywZZy-89" parent="c8NdyCZHUCgl87eywZZy-22">
           <mxGeometry relative="1" as="geometry">
@@ -206,10 +206,10 @@
         <mxCell id="c8NdyCZHUCgl87eywZZy-87" value="2.1.3 发送对局信息到kafka中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1180" y="810" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c8NdyCZHUCgl87eywZZy-92" value="3.2 grpc推送游戏上下文消息至ws网管，gameStatus=0提示用户开始准备" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="c8NdyCZHUCgl87eywZZy-18">
+        <mxCell id="c8NdyCZHUCgl87eywZZy-92" value="3.2 grpc推送游戏上下文消息至ws网管，gameStatus=0提示用户开始准备" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1379.5" y="960" as="sourcePoint" />
-            <mxPoint x="450" y="960" as="targetPoint" />
+            <mxPoint x="1371.83" y="960" as="sourcePoint" />
+            <mxPoint x="359.9966666666667" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-93" value="3.3 ws推送准备消息，提示用户准备&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
