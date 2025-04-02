@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="c8NdyCZHUCgl87eywZZy-14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="20" height="600" as="geometry" />
+          <mxGeometry x="80" y="400" width="20" height="950" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-14">
-          <mxGeometry x="5" y="80" width="10" height="520" as="geometry" />
+          <mxGeometry x="5" y="80" width="10" height="870" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-15" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="358" width="60" height="30" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-18" value="ws网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="313.5" y="400" width="100" height="600" as="geometry" />
+          <mxGeometry x="313.5" y="400" width="100" height="940" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c8NdyCZHUCgl87eywZZy-18">
-          <mxGeometry x="45.5" y="50" width="10" height="550" as="geometry" />
+          <mxGeometry x="45.5" y="50" width="10" height="890" as="geometry" />
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-19" value="&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;polyacc&lt;/span&gt;服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="620" y="400" width="100" height="930" as="geometry" />
@@ -205,6 +205,18 @@
         </mxCell>
         <mxCell id="c8NdyCZHUCgl87eywZZy-87" value="2.1.3 发送对局信息到kafka中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1180" y="810" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-92" value="3.2 grpc推送游戏上下文消息至ws网管，gameStatus=0提示用户开始准备" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="c8NdyCZHUCgl87eywZZy-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1379.5" y="960" as="sourcePoint" />
+            <mxPoint x="450" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8NdyCZHUCgl87eywZZy-93" value="3.3 ws推送准备消息，提示用户准备&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="359" y="990" as="sourcePoint" />
+            <mxPoint x="89.66666666666674" y="990" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
