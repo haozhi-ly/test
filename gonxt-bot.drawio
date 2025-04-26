@@ -1,9 +1,109 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="dHpAz73HT7JcaUmHah1y">
-    <mxGraphModel>
+    <mxGraphModel dx="719" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-1" value="gonxt-discord-bot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="100" width="525" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-4" value="user-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-5" target="5-ZsnAOwTsYCHiUe0IJ9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-5" value="ws" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-7" target="5-ZsnAOwTsYCHiUe0IJ9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-19" value="发送游戏action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5-ZsnAOwTsYCHiUe0IJ9-14">
+          <mxGeometry x="-0.4845" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-7" target="5-ZsnAOwTsYCHiUe0IJ9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-7" target="5-ZsnAOwTsYCHiUe0IJ9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-7" value="gonxt客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-8" value="val游戏客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-8" target="5-ZsnAOwTsYCHiUe0IJ9-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="sourcePoint" />
+            <mxPoint x="260" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-17" value="推送游戏事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5-ZsnAOwTsYCHiUe0IJ9-13">
+          <mxGeometry x="0.0707" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-21" value="api接口&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="393" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-22" value="如用户信息等接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="415" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-25" value="游戏状态上报&lt;div&gt;游戏开始&lt;br&gt;&lt;div&gt;游戏结束结果推送&lt;/div&gt;&lt;/div&gt;&lt;div&gt;房间相关信息变化&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-28" value="discord（外部）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-32" value="获取房间码&lt;div&gt;加入房间&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="333" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.793;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.218;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-1" target="5-ZsnAOwTsYCHiUe0IJ9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="171" as="sourcePoint" />
+            <mxPoint x="330" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-35" value="获取房间码&lt;div&gt;加入房间&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="211" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-37" value="游戏状态上报&lt;div&gt;游戏开始&lt;br&gt;&lt;div&gt;游戏结束结果推送&lt;/div&gt;&lt;/div&gt;&lt;div&gt;房间相关信息变化&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="180" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.677;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-4" target="5-ZsnAOwTsYCHiUe0IJ9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-39" value="调用discord相关api" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.181;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.393;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5-ZsnAOwTsYCHiUe0IJ9-28" target="5-ZsnAOwTsYCHiUe0IJ9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" as="sourcePoint" />
+            <mxPoint x="420" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5-ZsnAOwTsYCHiUe0IJ9-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="100" as="sourcePoint" />
+            <mxPoint x="490" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-42" value="调用discord api" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZsnAOwTsYCHiUe0IJ9-44" value="接受discord事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
